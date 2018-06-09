@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/fl_re_1"
+        android:layout_width="327px"
+        android:layout_height="432px"
+        android:gravity="center"
+        android:background="@drawable/hotzone_item1_bg"
+        android:padding="6px">
+
+
+        <ImageView
+            android:id="@+id/iv_re_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_re_2"
+        android:layout_width="274px"
+        android:layout_height="432px"
+        android:gravity="center"
+        android:background="@drawable/hotzone_item2_bg"
+        android:padding="6px">
+
+        <ImageView
+            android:id="@+id/iv_re_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_re_3"
+            android:layout_width="296px"
+            android:layout_height="215px"
+            android:gravity="center"
+            android:background="@drawable/hotzone_item3_bg"
+            android:padding="6px">
+
+            <ImageView
+                android:id="@+id/iv_re_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_re_4"
+            android:layout_width="296px"
+            android:layout_height="215px"
+            android:gravity="center"
+            android:background="@drawable/hotzone_item3_bg"
+            android:padding="6px">
+
+            <ImageView
+                android:id="@+id/iv_re_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
