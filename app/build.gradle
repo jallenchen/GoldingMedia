@@ -11,7 +11,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
-        versionName "ygA.1.0606.1100";
+        versionName "ygA.1.0712.1600";
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         //added for jni begin
@@ -74,7 +74,7 @@ android {
 //    }
     android.applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "GoldingMedia_yg.apk"
+            outputFileName = "GoldingMedia_ygA.apk"
         }
     }
     compileOptions {
